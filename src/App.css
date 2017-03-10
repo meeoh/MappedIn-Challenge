@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: #333; }
+
+#root {
+  font-family: 'Segoe Ui';
+  background: #eee;
+  padding: 40px; }
+  #root h1 {
+    text-align: center; }
+  #root .repo {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+    #root .repo h2 {
+      font-weight: normal; }
+      #root .repo h2 a {
+        color: #007afb; }
+      #root .repo h2 i {
+        color: #ffc500;
+        margin-right: 7px; }
+    #root .repo .counters {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center; }
+      #root .repo .counters > div {
+        margin-right: 20px; }
+        #root .repo .counters > div i {
+          color: #333;
+          margin-right: 5px;
+          font-size: 1.25em; }
+        #root .repo .counters > div a:link,
+        #root .repo .counters > div a:visited {
+          color: #777;
+          text-decoration: none; }
+        #root .repo .counters > div a:hover,
+        #root .repo .counters > div a:active {
+          color: #ff5600; }
